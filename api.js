@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://10.54.44.25:3500';
+const API_BASE_URL = 'https://amigodopet-deploy-1.onrender.com';
 
 class ApiService {
     static async request(endpoint, method = 'GET', data = null) {
